@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+use 5.014;
+
+say "\nPlease enter your name: ";
+
+chomp(my $user_input = <STDIN>);
+
+say "Your name is " . $user_input;

@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+use 5.014;
+print'Fuck\nMangos\\\\\\\\\\\\\\\\\sdfkjl';
+
+print"Fuck\nMangos\\\\\\\\\\\\\\\\\sdfkjl";
+
+say 'Fuck\nMangos\\\\\\\\\\\\\\\\\sdfkjl';

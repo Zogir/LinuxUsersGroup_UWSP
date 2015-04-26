@@ -1,0 +1,91 @@
+#!/usr/bin/perl
+use 5.014;
+
+# +	binary add
+# -	binary subtract
+# /	binary divide
+# %	binary modulous
+# .	concatinate
+# X	multiply string
+# **	exponential
+# ++	incriment
+# --	decriment
+# +=, -+, /=, etc...	assignment operators
+
+#!	bitwise not	
+#^	XOR
+#&	AND
+#|	OR
+#~	flip bits
+#>>	right shift
+#<<	left shift
+
+#"$foo"	variable declaration, you want to write "My" to set the scope to current location
+
+my $foo = 3;
+{
+	print "$foo\n";
+
+	my $foo = 5;
+
+	print "$foo\n";
+}
+	print "$foo\n";
+
+#print		double quotes interperet special characters, single quotes print literally
+#say		like print, but adds a newline
+
+print "ABC" . 3 + 2 . "\n";
+
+# String comparison operators
+# String op:	Numeric Equivalent:
+# eq		==
+# ne		!=
+# lt		<
+# gt		>
+# le		<=
+# ge		>=
+
+# By default, strings return a true vale; here are the exceptions:
+# 0, undef
+
+######################
+# Conditional values:#
+######################
+
+# unless()		A control structure opposing if() <--- NEVER USE THIS
+# if()			Self-explanitory
+# elsif()		Self-explanitory
+# else			Self-explanitory
+# defined()		checks to make sure something is defined
+
+##################
+# Standard Input:#
+##################
+
+# <STDIN>:
+# 	chomp():
+#		chomp(my $var = <STDIN>);	removes the tailing newline character
+# <STDOUT>
+# <STDERR>
+
+################
+# Array Syntax #
+################
+
+# my @array;			Declaration
+# my @array = (1, 2, 3);	Declaration and initialization
+# qw/string 2 5/		Alternative creation, spaces separate elements. The grouping characters can be anything you want
+# $array[0]			Calls element inside of the array
+# $array[499]			If the array is less than this in size, it allocates up to index 498
+#				and fills with undefined
+# $#array;			Gives number of elements in array
+
+##########
+# Loops: #
+##########
+
+# while(){}			Self-explanitory
+# for(){}			Self-explanitory
+# foreach(){}			This loop iterates through the array; for each iteration, it stores the value of the current index into array_element
+foreach my $array_element(@an_array = (1, 2, 3));

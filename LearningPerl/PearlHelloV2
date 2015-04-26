@@ -1,0 +1,7 @@
+#!/bin/perl
+
+print'Fuck\nMangos\\\\\\\\\\\\\\\\\sdfkjl';
+
+print"Fuck\nMangos\\\\\\\\\\\\\\\\\sdfkjl";
+
+say Fuck\nMangos\\\\\\\\\\\\\\\\\sdfkjl;

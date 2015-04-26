@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+use 5.014;
+
+say "Welcome to Linux Club!";
+
+say "Please enter your name: ";
+chomp(my $input = <STDIN>);
+
+say "Welcome to the dark side $input!";

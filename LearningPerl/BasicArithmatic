@@ -1,0 +1,11 @@
+#!/usr/bin/perl
+
+print 5 + 4 ."\n";
+print 5 - 4 ."\n";
+print "5 - 4\n";
+print 5 * 3 ."\n";
+print 5 / 34 ."\n";
+print 5 % 34 ."\n";
+
+print "Hello"*5 ."\n";
+print "Hello"x5 ."\n";

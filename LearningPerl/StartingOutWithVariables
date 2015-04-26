@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+use 5.014;
+
+my $var = 5;
+my $var2 = 7;
+
+print"$var + $var2\n";
+print $var + $var2 ."\n";
+print $var + $var2 ."\n";
