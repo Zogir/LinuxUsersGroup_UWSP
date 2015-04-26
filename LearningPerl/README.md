@@ -12,10 +12,10 @@ appears to contain code for experimenting with the "say" feature (for printing
 strings--appending with a newline character), the chomp feature (for removing)
 any trailing newlines from STDIN, the <STDIN> (for reading from standard input)
 and the "." string concatenation feature (forgive me for my seemingly useless
-documentation; I am new to github so it gives me practice)
+documentation; I am new to github so it gives me practice.)
 
 - BasicArithmetic: Eight lines of test code for experimenting with Perl's
-binary (binary as in "bi-directional", not "bitwise") arithmetic operators
+binary (binary as in "requiring two operands", not "bitwise") arithmetic operators
 as well as an operator for the occurrences of strings.
 
 - FirstPerlProgram: The first Perl program that I have ever written (as far
