@@ -1,4 +1,5 @@
 #!/bin/perl
+use 5.014;
 
 print'Mush\nMangos\\\\\\\\\\\\\\\\\sdfkjl';
 
