@@ -65,7 +65,7 @@ our club president requested that I add the foo source file, it was also a way
 for me to get my feet wet with git and github. These source files were not
 in any way originally intended for public posting or any practical use outside
 of giving me practice using a revision control system. That being said, one
-can expect to encounter code without comments, odd formatting, and general
-uselessness within this directory. Enjoy!
+can expect to encounter code that is both broken and without comments, odd
+formatting, and general uselessness within this directory. Enjoy!
 
--Zogir
++-Zogir
